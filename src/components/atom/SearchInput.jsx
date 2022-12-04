@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchInput = () => {
   return (
-    <div className="w-[246px] mt-[56px] mx-[22px] rounded-2xl">
+    <div className="w-[246px] mt-6 mx-[22px] rounded-2xl shadow">
       <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
         <div className="grid place-items-center h-full w-12 text-gray-300">
           <svg

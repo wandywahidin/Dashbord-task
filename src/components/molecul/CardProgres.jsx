@@ -4,7 +4,7 @@ import plus from "../../assets/plus.png";
 
 const CardProgres = ({date, title, subTitle, progress, dayLeft}) => {
   return (
-    <div className="bg-[#FCFBFF] rounded-xl mx-[22px] my-[31px]">
+    <div className="bg-[#FCFBFF] rounded-xl mx-[22px] my-[31px] shadow">
       <div className="flex justify-between m-3 text-[#D9D9D9] font-semibold">
         <p>{date}</p>
         <p>i</p>
