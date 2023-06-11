@@ -8,7 +8,7 @@ import checklist from '../../assets/sidebar/checklist.png'
 
 const SideBar = () => {
   return (
-    <div className='bg-[#FCFBFF] min-h-screen w-[131px] absolute top-0 left-0 rounded-r-3xl flex flex-col items-center'>
+    <div className='bg-[#FCFBFF] min-h-screen px-10 rounded-r-3xl flex flex-col items-center'>
         <div className='mt-6'>
             <img src={logo} alt="logo" />
         </div>

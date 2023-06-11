@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <Template>
         <SearchInput/>
-        <div>
+        <div className='relative flex justify-between mt-6 mx-[22px] bg-[#FCFBFF] rounded-2xl shadow'>
             <CardLong/>
-            <img src={cardlong} alt="banner" className='absolute top-4 right-32' />
+            <img src={cardlong} alt="banner" className='absolute right-0 -top-[100px]' />
         </div>
         <div className='grid grid-cols-3'>
             <CardProgres date={'Nov 2, 2022'} title={'Web Dashboard'} subTitle={'Designing'} progress={'90%'} dayLeft={'3'}/>
